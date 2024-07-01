@@ -1,0 +1,221 @@
+main hr {
+    border: 0;
+    background-color: lavender;
+    height: 1.8px;
+    margin: 60px 84px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(33, 33, 70);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(17, 17, 76);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    font-size: 1.2rem;
+    color: yellow;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0px;
+}
+
+.firstSection > div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 38px 0px;
+    background-color: rgb(33, 33, 70);
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: auto;
+    width: 200px;
+    max-width: 200px;
+    white-space: pre-wrap;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.secondSection .vertical i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+footer {
+    background-color: rgb(20, 20, 47);
+}
+
+.footer {
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 123px;
+    padding-right: 123px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+
+#projects {
+    font-size: 16px; 
+}
+
+#projects h1 {
+    font-size: 28px; 
+}
+
+#projects ul#project li {
+    font-size: 22px; 
+}
+
+#contact {
+    font-size: 16px; 
+}
+
+#contact h1 {
+    font-size: 28px; 
+}
+
+#contact a {
+    font-size: 22px; 
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px; 
+    font-size: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.vertical {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.vertical .fab.fa-amazon::before {
+    font-size: 40px;
+    color: #ff9900; 
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+
+.vertical p {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    line-height: 1.6;
+}
+
+

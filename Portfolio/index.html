@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshitha Dugyala - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Harshitha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Harshitha Dugyala</span> and 
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Harshitha-Ml data associate (1).pdf" download class="btn">Download Resume</a>
+                    <a href="https://github.com/harshithadugy" class="btn">Visit GitHub</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="girl.jpeg" alt="girl while working">
+            </div>
+        </section>
+        <hr>
+        <section id="about" class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <i class="fab fa-amazon"></i>
+                    <p> Machine Learning Data Associate | Amazon, Hyderabad | 04/07/2022 to 04/12/2023</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="secondSection">
+            <h1>Projects</h1>
+            <div>
+                <ul id="project">
+                    <li>Task Management Web App: Developed a responsive web app with HTML, CSS, and JavaScript for managing tasks, featuring adding, deleting, and marking tasks as completed.</li>
+                    <li>Sidebar Menu Implementation: Created a responsive sidebar menu with HTML and CSS, including menu item highlighting and collapsible sections.</li>
+                    <li>HTML/CSS Spotify Clone: Developed a Spotify clone with HTML and CSS, implementing music playback controls, search functionality, playlist creation, and artist profiles.</li>
+                    <li>Built a calculator using HTML, CSS, and JavaScript.</li>
+                    <li>Built a product landing page using HTML and CSS.</li>
+                    <li>Built a login page using HTML, CSS, and JavaScript.</li>
+                    <li>Built a lottery game using React.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="secondSection">
+            <h1>Contact Me</h1>
+            <div>
+                Email: <a href="mailto:harshithadugyala2000@gmail.com">harshithadugyala2000@gmail.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/harshitha-dugyala" target="_blank">www.linkedin.com/in/harshitha-dugyala</a>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Harshitha's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">Copyright &#169; harshithasportfolio.com | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-end Enthusiast', 'Tech Lover'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+
+        function navigateToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
